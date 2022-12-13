@@ -14,11 +14,13 @@
   </head>
   <body>
     <header>
+      <!-- Vue의 통제 밖에있는 요소는 적용되지 않는다. -->
+      <!-- <h1>{{ courseGoal }}</h1> -->
       <h1>Vue Course Goals</h1>
     </header>
     <section id="user-goal">
       <h2>My Course Goal</h2>
-      <p></p>
+      <p>{{ courseGoal }}</p>
     </section>
   </body>
 </html>
